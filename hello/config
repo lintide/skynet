@@ -1,0 +1,6 @@
+root = "./"
+thread = 4
+harbor = 0 -- 单点模式
+start = "helloSkynet"	-- main script
+bootstrap = "snlua bootstrap"	-- The service for bootstrap
+luaservice = root.."service/?.lua;"..root.."test/?.lua;"..root.."hello/?.lua"
